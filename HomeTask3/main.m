@@ -13,24 +13,18 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        SUNBoy *boy= [[SUNBoy alloc] init];
-        boy.stateOfBoy= @1;
         
         SUNGirl *girl= [[SUNGirl alloc] init];
         girl.stateOfGirl= @0;
         
+        SUNBoy *boy= [[SUNBoy alloc] init];
+        boy.stateOfBoy= @1;
         SUNDj *dj= [[SUNDj alloc] init];
-        dj.delegate= @1;
+        dj.delegate= boy;
+        [dj fire];
         
         [girl frontHightKick:dj];
         dj.delegateBlock();
-        
-        BOOL willBoyDance= [[boy musicStateChanged:dj.delegate] boolValue];
-        
-        if(willBoyDance)
-            NSLog(@"\n\nYeah, boy dance!\n\n");
-        else
-            NSLog(@"\n\nStop it, please, boy.\n\n");
         
     }
     return 0;

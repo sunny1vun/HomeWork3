@@ -12,12 +12,13 @@
 @class SUNDj;
 
 @protocol SUNDjProtocol <NSObject>
-
-@required -(NSNumber*)musicStateChanged:(id) delegate;
-
+@required
+-(void)musicStateChanged;
 @end
 
 @interface SUNDj : NSObject
+
+- (void)fire;
 
 @property (weak, nonatomic) id delegate;
 @property (copy, nonatomic) void (^delegateBlock)(void);

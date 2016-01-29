@@ -11,12 +11,11 @@
 
 @implementation SUNBoy
 
--(NSNumber*)musicStateChanged:(id)delegate{
-    
-    if(delegate!= nil)
-        return @10;
+-(void)musicStateChanged{
+    if(self.stateOfBoy)
+        NSLog(@"\n\nBoy dance.\n\n");
     else
-        return @0;
+        NSLog(@"\n\nBoy not dance.\n\n");
 }
 
 @end

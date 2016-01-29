@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "75D4A0A09651E2736A68F99B66712CEB7B49C1DE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D31AB09177FDE4ADE963BB7867824CC983751587" : 0,
+    "75D4A0A09651E2736A68F99B66712CEB7B49C1DE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AB3BCAA9-98EB-48C2-A1D6-720D4B8A6689",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D31AB09177FDE4ADE963BB7867824CC983751587" : "",
+    "75D4A0A09651E2736A68F99B66712CEB7B49C1DE" : "HomeTask3\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HomeTask3",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HomeTask3.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sunny1vun\/HomeWork3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "75D4A0A09651E2736A68F99B66712CEB7B49C1DE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sunny1vun\/iOSProgramm.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D31AB09177FDE4ADE963BB7867824CC983751587"
+    }
+  ]
+}

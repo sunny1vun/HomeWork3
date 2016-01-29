@@ -13,6 +13,6 @@
 
 -(void)frontHightKick:(SUNDj*)dj;
 
-@property (nonatomic, weak) NSNumber *stateOfGirl;
+@property (nonatomic, strong) NSNumber *stateOfGirl;
 
 @end

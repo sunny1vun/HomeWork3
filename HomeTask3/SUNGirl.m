@@ -12,12 +12,11 @@
 @implementation SUNGirl
 
 -(void)frontHightKick:(SUNDj*) dj{
-    //= [[SUNDj alloc] init];
-    SUNDj * __weak weakDj= dj;
-    weakDj.delegateBlock= ^{
+    SUNGirl * __weak weakGirl= self;
+    dj.delegateBlock= ^{
         //p 14 lecture 3 to solve problem leak of memory (cause of strong connection, by standarts, of links)
         
-        if([self.stateOfGirl boolValue])
+        if([weakGirl.stateOfGirl boolValue])
             NSLog(@"\n\nNow dance, Girl!\n\n");
         else
             NSLog(@"\n\nWow girl, stop dancing.\n\n");

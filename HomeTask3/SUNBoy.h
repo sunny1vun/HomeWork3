@@ -12,7 +12,7 @@
 //That line provides to use protocol of another class, that is how exectly protocols can be used
 @interface SUNBoy : NSObject <SUNDjProtocol>
 
-@property (nonatomic, weak) NSNumber *stateOfBoy;
+@property (nonatomic, strong) NSNumber *stateOfBoy;
 
 
 
